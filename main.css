@@ -1,0 +1,103 @@
+body{
+    background-color: #1C1C1C;
+    color: white;
+    font-family: monospace;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 28px;
+    color: goldenrod;
+
+}
+
+.list-item{
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+input{
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: goldenrod ;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: monospace;
+}
+button{
+    padding: 8px;
+    font-size: 15px;
+    background-color: transparent;
+    border-color: goldenrod;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.conteudo-cabeçalho{
+    color: goldenrod;
+    font-size: 15px;
+    font-family: monospace;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.lista-de-tarefas{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.title-padding{
+    padding: 35px;
+}
+
+.informar-uso-do-campo{
+    font-family: monospace;
+}
+
+
+.cronofoco{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.titulo-cronometro{
+    padding: 20px;
+    color: goldenrod;
+}
+
+.divisao-cabeçalho{
+    border: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.divisao-de-pagina{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
+
+.pagina-de-autoria{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    color: goldenrod
+}
+
+.separação-para-cronometro{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
+
+

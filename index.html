@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefa</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    
+<body>
+    <header>
+        <div class="conteudo-cabeçalho">
+           <h1>Esse site foi feito para você focar em suas tarefas de casa e 
+            te ajudar a não procrastinar!
+            </h1>
+            
+            <h1>Nesse site você irá organizar a sua lista de tarefas 
+                do seu dia, Iniciar o Cronofoco e fazer todas as suas tarefas do dia
+            </h1> 
+        </div>
+
+        <div class="divisao-cabeçalho"></div>
+    </header>
+    <div class="title-padding">
+        <h1 class="title">Aqui você faz sua lista de tarefas, para que não esqueça de fazer alguma</h1>
+    </div>   
+    <div class="lista-de-tarefas"> 
+        <h1>Tarefas do Dia: </h1>
+        <h3 class="informar-uso-do-campo">(Aqui você irá listar todas as tarefas para fazer hoje)</h3>
+
+        <ul id="list"></ul>
+        <input type="text"
+          id="task_name" 
+          name="task_name"
+          placeholder="Nome da Tarefa"/>
+        <button onclick="addNewTask()">Adicionar</button>
+
+    </div>
+
+    <div class="separação-para-cronometro"></div>
+
+    <div>
+        <h1 class="titulo-cronometro">Aqui você vai iniciar seu Cronofoco</h1>
+    
+    </div>
+    
+    <div class="cronofoco" >
+        <ol class="lista-cronofoco">
+            <li>(Este cronomêtro serve para você marcar o tempo de cada tarefa sua)</li>
+            <li>(Inicie quando começar a sua tarefa)</li>
+            <li>(Pause quando tirar um tempo de descanso e quando voltar a atividade
+                clicar em "iniciar", para continuar a contagem)</li>
+            <li>(Use a opção "Parar" pra quando tiver finalizado alguma atividade)</li>
+        </ol>
+        <h1 id="watch">00:00:00</h1>
+        <button class="start-btn" onclick="start()">Iniciar</button>
+        <button class="pause-btn" onclick="pause()">Pausar</button>
+        <button class="stop-btn" onclick="stop()">Parar</button>
+    </div>
+    <div class="divisao-de-pagina"></div>
+
+    <div class="pagina-de-autoria">
+        <p>
+            <h1>
+                Prazer, meu nome é Thiago. Eu trabalho na parte tarde/noite igual um condenado,
+                de manhã faço faculde e quando raramente me sobra algum tempo, eu jogo VALORANT
+                ou ando de skt.
+            </h1>
+            <a class="link-da-conta-do-github" href="https://github.com/ko-thaigo"> minha conta do github
+            </a>
+        </p>
+       <img src="Thiago.jpeg" alt="">
+    </div>
+
+
+
+    
+    
+    
+</body>
+</html
